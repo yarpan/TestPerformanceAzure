@@ -1,0 +1,18 @@
+<azure>
+  <accountname>accountname</accountname>
+  <accountkey>accountkey</accountkey>
+  <tablename>"TestPerfomance"</tablename>
+</azure>
+<spo>
+  <username>username</username>
+  <password>password</password>
+  <siteurl>siteurl</siteurl>
+</spo>
+<email>
+  <username>username</username>
+  <password>password</password>
+  <mailfrom>mailfrom</mailfrom>
+  <mailto>mailto</mailto>
+</email>
+
+

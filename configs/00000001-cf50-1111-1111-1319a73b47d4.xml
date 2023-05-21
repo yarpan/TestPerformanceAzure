@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eMigrationConfiguration>
+    <recordKey>00000001-cf50-1111-1111-1319a73b47d4</recordKey>
+    <updated>false</updated>
+    <completed>false</completed>
+    <failed>false</failed>
+    <records>
+        <entry>
+            <key>00000001-cf50-1111-1111-1319a73b47d4</key>
+            <value>
+                <priority>0</priority>
+                <jobSetName></jobSetName>
+            </value>
+        </entry>
+    </records>
+    <recipients>metavistech.com@gmail.com</recipients>
+    <isCreateOneDriveLogFile>false</isCreateOneDriveLogFile>
+    <VERSION>5.0 Added few indices to the Database</VERSION>
+    <sourceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sharepointTurboContext">
+        <login>Apool1@metavistech.com;</login>
+        <password>Uq5BbBeyPIc9PTvmfCo+fQ==</password>
+        <appClientId>30718032-5386-4110-8b06-de77462f42a2</appClientId>
+        <siteUrl>https://metavistech.sharepoint.com/sites/PerfomanceTestDrops</siteUrl>
+        <centralAdminUrl>https://metavistech-admin.sharepoint.com</centralAdminUrl>
+        <siteCollectionQuota>0</siteCollectionQuota>
+        <checkSiteUrl>true</checkSiteUrl>
+        <type>SHAREPOINT</type>
+        <syncRun>false</syncRun>
+        <refreshLogs>false</refreshLogs>
+        <batching>true</batching>
+    </sourceContext>
+    <targetContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="sharepointTurboContext">
+        <login>Apool1@appdevsite.onmicrosoft.com;</login>
+        <password>Uq5BbBeyPIc9PTvmfCo+fQ==</password>
+        <appClientId>30718032-5386-4110-8b06-de77462f42a2</appClientId>
+        <siteUrl>https://appdevsite.sharepoint.com/sites/PerfomanceTestDrops</siteUrl>
+        <centralAdminUrl>https://appdevsite-admin.sharepoint.com</centralAdminUrl>
+        <siteCollectionQuota>0</siteCollectionQuota>
+        <checkSiteUrl>false</checkSiteUrl>
+        <type>SHAREPOINT</type>
+        <syncRun>false</syncRun>
+        <refreshLogs>false</refreshLogs>
+        <batching>true</batching>
+    </targetContext>
+    <defaultUser></defaultUser>
+    <policy>
+        <type>OVERWRITE</type>
+    </policy>
+    <overflowPath>
+        <maxLengthBeforeOverlow>200</maxLengthBeforeOverlow>
+        <nameLengthFolderOverflow>5</nameLengthFolderOverflow>
+    </overflowPath>
+    <numCopiedVersions>-1</numCopiedVersions>
+    <includeSystemLists>false</includeSystemLists>
+    <copyPermissions>false</copyPermissions>
+    <copyWorkflows>false</copyWorkflows>
+    <copyFeatures>false</copyFeatures>
+    <copyFileLevelPermissions>false</copyFileLevelPermissions>
+    <copySitePerm>false</copySitePerm>
+    <copyListPerm>false</copyListPerm>
+    <copyListViews>true</copyListViews>
+    <skipNonOwnerObjects>false</skipNonOwnerObjects>
+    <copyGroup>true</copyGroup>
+    <copySubsites>false</copySubsites>
+    <copyLists>true</copyLists>
+    <copyGoogleOrphanedFiles>false</copyGoogleOrphanedFiles>
+    <copyGoogleFirstReferenceFileOnly>false</copyGoogleFirstReferenceFileOnly>
+    <userMapping>
+        <entry>
+            <key>*@metavistech.com</key>
+            <value>*@appdevsite.onmicrosoft.com</value>
+        </entry>
+    </userMapping>
+    <databaseConfiguration>Derby</databaseConfiguration>
+    <executorConfiguration>HyperExecutor</executorConfiguration>
+</eMigrationConfiguration>
