@@ -1,12 +1,12 @@
-# Version 1.93 (+ remove Folders to avoid treshhold)
-# Version 1.92 (+ RAM size to Azure)
-# Version 1.91 (+ eMailOutlook)
-# Version 1.9  (+ Version To Azure)
+# Version 0.93 (+ remove Folders to avoid treshhold)
+# Version 0.92 (+ RAM size to Azure)
+# Version 0.91 (+ eMailOutlook)
+# Version 0.9  (+ app Version To Azure)
 
 #Import TestData
-$configSpo = ([xml](Get-Content -Path ".\testdata.xml")).spo
-$configAzure = ([xml](Get-Content -Path ".\testdata.xml")).azure
-$configEmail = ([xml](Get-Content -Path ".\testdata.xml")).email
+$configSpo = ([xml](Get-Content -Path ".\testdata_demo.xml")).spo
+$configAzure = ([xml](Get-Content -Path ".\testdata_demo.xml")).azure
+$configEmail = ([xml](Get-Content -Path ".\testdata_demo.xml")).email
 
 #AZURE TABLE DATA
 Import-Module AzureRM.Profile
